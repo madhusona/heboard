@@ -40,7 +40,7 @@
 <script>
 
     
-$.getJSON( "he.json", function( data ) {
+$.getJSON( "https://api.jsonbin.io/b/5d2448600e09805769fd5ad9/latest", function( data ) {
 data = data.filter((thing, index, self) =>
   index === self.findIndex((t) => (
     t.username === thing.username && t.problemname === thing.problemname
